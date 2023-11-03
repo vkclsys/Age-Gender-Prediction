@@ -6,9 +6,9 @@ import time, math, argparse, cv2, sys, torch
 import json
 
 # Load model
-model_age = load_model('./model/model_age.hdf5')
-model_gender = load_model('./model/model_gender.hdf5')
-model_ethnicity = load_model('./model/model_ethnicity.hdf5')
+model_age = load_model('../model/model_age.hdf5')
+model_gender = load_model('../model/model_gender.hdf5')
+model_ethnicity = load_model('../model/model_ethnicity.hdf5')
 
 # Label
 label_gender = ['Male', 'Female']
